@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEL - Uniformes Industriales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: #DAA520;
+        }
+        header .background-img {
+            width: 100%;
+            opacity: 0.6;
+        }
+        header .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 50px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: -webkit-linear-gradient(#DAA520, #FFFFFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        header h2 {
+            margin: 0;
+            font-size: 1.2em;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #DAA520;
+        }
+        nav {
+            margin-top: 1em;
+            background-color: #333333;
+            overflow: hidden;
+        }
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        nav ul li {
+            float: left;
+            position: relative;
+        }
+        nav ul li a {
+            display: block;
+            color: #DAA520;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333333;
+        }
+        nav ul li ul li {
+            width: 180px;
+        }
+        main {
+            padding: 1em;
+            background-color: #121212;
+            text-align: center;
+        }
+        .announcement {
+            margin: 2em 0;
+            padding: 2em;
+            background-color: #DAA520;
+            color: #000000;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .contact {
+            margin: 2em 0;
+        }
+        .contact p {
+            margin: 0.5em 0;
+        }
+        .buttons {
+            margin: 1em 0;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            color: #FFFFFF;
+            background-color: #333333;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .buttons a:hover {
+            background-color: #575757;
+        }
+        .section {
+            padding: 2em;
+            background-color: #1c1c1c;
+            margin: 1em 0;
+            border-radius: 8px;
+        }
+        .section iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/diseño_sin_titulo(1).jpg" alt="Encabezado" class="background-img">
+        <img src="img/Logo.jpg" alt="Logo de SHEL" class="logo">
+        <h1>SHEL</h1>
+        <h2>Uniformes Industriales</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#catalogo">Catálogo</a>
+                <ul>
+                    <li><a href="#">Overol</a></li>
+                    <li><a href="#">Camisola de Mezclilla</a></li>
+                    <li><a href="#">Bata Blanca Manga Corta</a></li>
+                    <li><a href="#">Bata Blanca Manga Larga</a></li>
+                    <li><a href="#">Filipina para Enfermería</a></li>
+                    <li><a href="#">Chamarra</a></li>
+                    <li><a href="#">Chaleco con Cierre</a></li>
+                    <li><a href="#">Chaleco con Velcro</a></li>
+                    <li><a href="#">Camisola Negra</a></li>
+                    <li><a href="#">Filipina de Chef</a></li>
+                </ul>
+            </li>
+            <li><a href="#contacto">Contáctanos</a></li>
+            <li><a href="#mision-vision">Misión y Visión</a></li>
+            <li><a href="#materiales">Materiales</a></li>
+            <li><a href="#bolsa-mortuoria">Bolsa Mortuoria</a></li>
+            <li><a href="#antifluidos">Antifluidos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="announcement">
+            ¡Venta especial! Bata Blanca por solo $150
+        </section>
+        <section id="catalogo" class="section">
+            <h2>Catálogo</h2>
+            <ul>
+                <li>Overol</li>
+                <li>Camisola de Mezclilla</li>
+                <li>Bata Blanca Manga Corta</li>
+                <li>Bata Blanca Manga Larga</li>
+                <li>Filipina para Enfermería</li>
+                <li>Chamarra</li>
+                <li>Chaleco con Cierre</li>
+                <li>Chaleco con Velcro</li>
+                <li>Camisola Negra</li>
+                <li>Filipina de Chef</li>
+            </ul>
+        </section>
+        <section id="contacto" class="contact">
+            <h2>Contáctanos</h2>
+            <p>Correo electrónico: <a href="mailto:shel.un.ind@gmail.com">shel.un.ind@gmail.com</a></p>
+            <p>Teléfono: <a href="tel:2216042908">2216042908</a></p>
+            <div class="buttons">
+                <a href="https://www.facebook.com/tuusuario" target="_blank">Facebook</a>
+                <a href="https://wa.me/2216042908" target="_blank">WhatsApp</a>
+            </div>
+        </section>
+        <section id="mision-vision" class="section">
+            <h2>Misión y Visión</h2>
+            <h3>Misión</h3>
+            <p>Proveer uniformes industriales de la más alta calidad para asegurar la seguridad y comodidad de nuestros clientes en sus labores diarias.</p>
+            <h3>Visión</h3>
+            <p>Ser la empresa líder en el mercado de uniformes industriales, reconocida por nuestra calidad, innovación y excelente servicio al cliente.</p>
+        </section>
+        <section id="materiales" class="section">
+            <h2>Materiales</h2>
+            <p>Descripción de los materiales utilizados en nuestros uniformes industriales.</p>
+        </section>
+        <section id="bolsa-mortuoria" class="section">
+            <h2>Bolsa Mortuoria</h2>
+            <iframe src="pdf/bolsa_mortuoria.pdf" frameborder="0"></iframe>
+        </section>
+        <section id="antifluidos" class="section">
+            <h2>Antifluidos</h2>
+            <p>Detalles sobre nuestras prendas antifluidos, diseñadas para ofrecer protección adicional.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Uniformes Industriales SHEL</p>
+    </footer>
+</body>
+</html>
